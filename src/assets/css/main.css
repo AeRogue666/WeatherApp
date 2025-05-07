@@ -1,0 +1,118 @@
+@import "./base.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  scrollbar-width: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+body {
+  display: block;
+  min-height: 100vh;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: "Roboto", "Arial", sans-serif;
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+  min-height: inherit;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header {
+  display: block;
+  width: 100%;
+  height: auto; /* 5.78rem */
+  min-height: 1rem;
+  position: relative;
+  top: 0;
+  z-index: 99;
+}
+
+main {
+  display: block;
+  width: auto;
+  height: 100%;
+  min-height: 90vh;
+  overflow-y: visible;
+  position: relative;
+  scrollbar-width: none;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: normal;
+}
+
+h1 {
+  color: var(--color-title);
+  font-family: "Roboto", sans-serif;
+  font-size: x-large;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+h2,
+h3,
+button,
+a,
+label,
+legend {
+  color: var(--color-text);
+  font-family: "Roboto", sans-serif;
+}
+
+p,
+li {
+  color: var(--color-text);
+  font-family: "Roboto Mono", monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+h2 {
+  color: var(--color-subtitle);
+  font-size: larger;
+  font-weight: 600;
+}
+
+h3 {
+  color: var(--color-subtitle-2);
+  font-size: large;
+  font-weight: normal;
+}
+
+button {
+    transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: var(--color-btn-hover);
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
