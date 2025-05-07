@@ -1,5 +1,9 @@
-# Vue 3 + Vite
+# WeatherApp
+Ce projet est une application d'aggrégation météo créé avec **VueJS**, **Tailwind CSS** et **Vite**, 
+en respectant le principe de 'Responsive Design' et 'Mobile-First'.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Il est assez complet, comprenant notamment :
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+    - Un système de recherche d'une ville, d'un village via une barre de recherche
+    - Section affichant les résultats de recherche obtenus auprès de différentes API
+    - Affichage de la météo de la journée et de la semaine pour chacune des recherches (si l'API le permet)
