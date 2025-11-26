@@ -1,6 +1,6 @@
 # WeatherApp
-Ce projet est une application d'aggrégation météo créé avec **VueJS**, **Tailwind CSS** et **Vite**, 
-en respectant le principe de 'Responsive Design' et 'Mobile-First'.
+
+Ce projet est une application d'aggrégation météo créé avec **VueJS**, **Tailwind CSS** et **Vite**, en respectant le principe de 'Responsive Design' et 'Mobile-First'.
 
 Il est assez complet, comprenant notamment :
 
