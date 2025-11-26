@@ -60,7 +60,7 @@ watchEffect(() => {
   </main>
 
   <footer>
-    <div>
+    <div class="flex flex-row justify-center">
       <p>Copyrights 2025-Now - {{ t('copyright') }}</p>
     </div>
   </footer>
